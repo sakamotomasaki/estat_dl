@@ -60,14 +60,16 @@ codezine記事「ディープラーニングを用いた時系列データの予
 - 説明変数:*_lag1(前月の全データ,月次), *_lag1_1(前月の全データ,隣の県,月次)
 - ロジック:ディープラーニング(CNN)
 ## 動作確認環境
-- OS:macOS Mojave 10.14.6
-- Python:Python 3.7.2(anaconda3-5.3.1)
-- Python Packages:
--- jupyter 1.0.0
--- numpy 1.15.1
--- pandas 0.23.4
--- scikit-learn 0.19.2
--- tensorflow 1.14.0
--- Keras 2.2.4
--- matplotlib 2.2.3
+### OS
+- macOS Mojave 10.14.6
+### Python
+- Python 3.7.2(anaconda3-5.3.1)
+### Python Packages
+- jupyter 1.0.0
+- numpy 1.15.1
+- pandas 0.23.4
+- scikit-learn 0.19.2
+- tensorflow 1.14.0
+- Keras 2.2.4
+- matplotlib 2.2.3
 
