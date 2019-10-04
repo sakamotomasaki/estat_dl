@@ -27,7 +27,7 @@ codezine記事「ディープラーニングを用いた時系列データの予
 - pop_female:女性人口数
 - pop_sum:合計人口数
 - pop_households:世帯数
-#### data/00450091_wage.csv
+### data/00450091_wage.csv
 - datetime:日時
 - prefecture:都道府県
 - wag_age:労働者の平均年齢
@@ -42,7 +42,7 @@ codezine記事「ディープラーニングを用いた時系列データの予
 - idt_salaries:工業給与総額
 - idt_costs:工業原材料総額
 - idt_sales:工業出荷総額
-### data/00550020_retail.xlsx
+### data/00550020_retail.csv
 - datetime:日時
 - prefecture:都道府県
 - ret_offices:卸小売事業所数
