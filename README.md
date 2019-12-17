@@ -70,24 +70,24 @@ CodeZine記事「AI技術の適用実践:時系列データ予測の作り方」
 ## マシン環境の構築手順例
 ### （例）macOS
 - 1. Python環境構成管理ツール(pyenv)のインストール
--- $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
--- $ brew install pyenv
+	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	$ brew install pyenv
 - 2. Python環境(Anaconda)のインストール
--- $ pyenv install --list
--- $ pyenv install anaconda3-5.3.1
+	$ pyenv install --list
+	$ pyenv install anaconda3-5.3.1
 - 3. 実行環境の構築
--- $ mkdir ~/work
--- $ cd ~/work
--- $ pyenv local anaconda3-5.3.1
+	$ mkdir ~/work
+	$ cd ~/work
+	$ pyenv local anaconda3-5.3.1
 - 4. tensorflow,kerasのインストール
--- $ pip install PyHamcrest # tensorflowインストール時に、PyHamcrestがインストールされていないというエラーとなったため
--- $ conda update wrapt # tensorflowインストール時に、wraptがアンインストールできないというエラーとなったため
--- $ pip install tensorflow
--- $ pip install keras
+	$ pip install PyHamcrest # tensorflowインストール時に、PyHamcrestがインストールされていないというエラーとなったため
+	$ conda update wrapt # tensorflowインストール時に、wraptがアンインストールできないというエラーとなったため
+	$ pip install tensorflow
+	$ pip install keras
 - 5. ソースコードのダウンロード
--- $ git clone https://github.com/sakamotomasaki/estat_dl.git
+	$ git clone https://github.com/sakamotomasaki/estat_dl.git
 - 6. jupyter notebookの起動
--- $ jupyter notebook
+	$ jupyter notebook
 - 7. ソースコードの実行
--- WEBブラウザにて起動されたjupyter notebook画面にて、「estat_dl」に移動し、「chapter01.ipynb」を起動する.
--- メニュータブにて、「Kernel」>[Restart& Run All]でソースコードを実行する.
+	WEBブラウザにて起動されたjupyter notebook画面にて、「estat_dl」に移動し、「chapter01.ipynb」を起動する.
+	メニュータブにて、「Kernel」>[Restart& Run All]でソースコードを実行する.
