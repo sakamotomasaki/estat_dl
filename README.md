@@ -68,7 +68,16 @@ CodeZine記事「AI技術の適用実践:時系列データ予測の作り方」
 - Keras 2.2.4
 - matplotlib 2.2.3
 ## マシン環境の構築手順例
-### （例）macOS
+### 注意事項（例にて記載を省略している部分）
+- (1) ネットワーク経由でのインストールについて
+```
+社内NW環境等によりインターネットへのアクセスにプロキシを使用している場合、ネットワークを経由するコマンド毎にプロキシ設定をする必要があります
+```
+- (2) matplotlibにおける日本語表示について
+```
+使用する日本語フォント（IPAexGothic）をインストールする必要があります
+```
+### （例1）macOS
 - (1) Python環境構成管理ツール(pyenv)のインストール
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -101,6 +110,30 @@ $ git clone https://github.com/sakamotomasaki/estat_dl.git
 $ jupyter notebook
 ```
 - (7) ソースコードの実行
+```
+WEBブラウザにて起動されたjupyter notebook画面にて、「estat_dl」に移動し、「chapter01.ipynb」を起動する.
+メニュータブにて、「Kernel」>[Restart& Run All]でソースコードを実行する.
+```
+### （例2）OS:Windows 10(64bit)
+- (1) Python環境(Anaconda)のインストール
+```
+https://www.anaconda.com/distribution/#download-section から3.7系をダウンロードしてインストールする.
+```
+- (2) Pythonパッケージのインストール
+```
+Windowsスタートメニューから「Anaconda3(64-bit)」/「Anaconda Prompt(anaconda3)」を選択する.
+Pythonパッケージ構成管理ツール(conda)を用いて、keras(同時にtensorflow)をインストールする.
+(base)C:\Users\<Windowsアカウント名>> conda install keras
+```
+- (3) ソースコードのダウンロード
+```
+https://github.com/sakamotomasaki/estat_dl から[Clone or Download]より「estat_dl-master.zip」をダウンロードし、解凍する.
+```
+- (4) jupyter notebookの起動
+```
+Windowsスタートメニューから「Anaconda3(64-bit)」/「Jupyter Notebook」を選択する.
+```
+- (5) ソースコードの実行
 ```
 WEBブラウザにて起動されたjupyter notebook画面にて、「estat_dl」に移動し、「chapter01.ipynb」を起動する.
 メニュータブにて、「Kernel」>[Restart& Run All]でソースコードを実行する.
