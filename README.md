@@ -17,6 +17,8 @@ https://codezine.jp/article/detail/11882
 第3稿(近日公開予定)
 ### chapter03_02_loclag.ipynb
 第3稿(近日公開予定)
+### chapter04_model_eval.ipynb
+第4稿(近日公開予定)
 ## データの内容
 - 出典:政府統計の総合窓口(e-Stat) (https://www.e-stat.go.jp/)
 - 各データファイル(CSV)は、「住民基本台帳人口移動報告」,「住民基本台帳に基づく人口、人口動態及び世帯数調査」,「賃金構造基本統計調査」,「工業統計調査」,「商用統計調査」を加工して作成
